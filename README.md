@@ -4,15 +4,15 @@
 
 ## Realizado con
 
-### Tecnologías:
+### Tecnologías
 
 ![html]
 ![css]
 
-### Sistema Operativo:
+### Sistema Operativo
 ![fedora]
 
-### Herramientas:
+### Herramientas
 
 ![vsc] ![git] ![figma]
 
