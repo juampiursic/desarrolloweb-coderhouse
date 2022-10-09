@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,100;1,400;1,600;1,900&display=swap');
+
+/* <------ Reset ------> */
+
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+
+/* <------ Nav Bar ------> */
+
+nav{
+    display: inline-flex;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    width: 100%;
+    margin: 120px;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #A4A7B2; 
+}
+
+
+/* <------ Home ------> */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+section.home h1{
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+
+    /* Color */
+    color: #A4A7B2;
+
+    /* Size */
+    width: 50%;
+
+    /* Padding */
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+section.home p{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    /* Color */
+    color: #A4A7B2;
+
+    /* Size */
+    width: 40%;
+
+    /* Padding */
+    padding-left: 10%;
+}
+
+section.home button{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    /* Color */
+    background-color: #A4A7B2;
+    color: white;
+    
+    /* Border */
+    border-radius: 0;
+    border-style: hidden;
+
+   /* Padding */    
+    padding: 15px;
+
+    /* Margin */
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#homeBanner{
+
+    /* Color */
+    background-color: #686B76;
+
+    /* Size */
+    width: 1000px;
+    height: 600px;
+
+    /*Padding, Margin & Position */
+    margin-top: 20%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+
+/* <------ Trending ------> */
+
+main.trending section aside {
+
+    /* Position */
+    position: absolute;
+    
+    /* Padding */
+    padding-left: 45%;
+
+    /* Margin */
+    margin-top: 500px;
+}
+
+main.trending section aside h1{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+
+    /* Color */
+    color: #A4A7B2;
+
+    /* Size */
+    width: 900px;
+
+    /* Padding */
+    padding-bottom: 10%;
+}
+
+main.trending section aside p{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: #686B76;
+
+    /* Size */
+    width: 800px;
+}
+
+main.trending div.connections{
+
+    /* Padding, Margin & Position */   
+    position: relative;
+    margin-top: 7%;
+    padding-left: 5%;
+}
+
+main.trending section #uno{
+
+    /* Color */    
+    background-color: #686B76;
+
+    /* Size */
+    width: 300px;
+    height: 500px;
+
+    /* Border Style */
+    border: 5px solid white;
+
+    /* Padding, Margin & Position */
+    margin: 50px;
+    margin-left: 450px;
+    position: absolute;
+    
+}
+
+main.trending section #dos{
+
+    /* Color */
+    background-color: #686B76;
+    width: 400px;
+    height: 600px;
+
+    /* Border Style */
+    border: 5px solid white;
+
+    /* Padding, Margin & Position */
+    margin-left: 50px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+main.trending section #tres{
+
+    /* Color */    
+    background-color: #686B76;
+
+    /* Size */
+    width: 400px;
+    height: 500px;
+
+    /* Border Style */
+    border: 5px solid white;
+
+    /* Padding, Margin & Position */
+    margin-left: 250px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+main.trending section #cuatro{
+
+    /* Color */
+    background-color: #686B76;
+
+    /* Size */
+    width: 300px;
+    height: 400px;
+
+    /* Border Style */
+    border: 5px solid white;
+
+    /* Padding, Margin & Position */
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+/* <------ Connnections ------> */
+
+main.connections section h1{
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+
+    /* Color */
+    color: #A4A7B2;
+
+    /* Size */
+    width: 50%;
+
+    /* Padding, Margin & Position */
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+main.connections section p{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: #686B76;
+
+    /* Size */
+    width: 50%;   
+
+    /* Padding, Margin & Position */
+    padding-top: 2%;
+    padding-left: 10%;  
+}
+
+main.connections #gameConnections{
+
+    /* Color */
+    background-color: #686B76;
+
+    /* Size */
+    width: 400px;
+    height: 500px;
+
+    /* Padding, Margin & Position */
+    margin: 2%;
+    display: inline-block;
+}
+
+
+/* <------ Features ------> */
+
+main.features h1{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    
+    /* Color */
+    color: #A4A7B2;
+    
+    /* Size */
+    width: 50%;
+    
+    /* Padding, Margin & Position */
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+main.features p {
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: #686B76;
+
+    /* Size */
+    width: 50%;    
+
+    /* Padding, Margin & Position */
+    padding-left: 10%;
+}
+
+main.features #banner{
+    
+    /* Color */
+    background-color: #686B76;
+    
+    /* Size */
+    width: 1000px;
+    height: 500px;
+
+    /* Padding, Margin & Position */
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+main.features aside{
+
+    /* Padding, Margin & Position */
+    position: absolute;
+    padding-left: 60%;
+    margin-top: 24%;
+
+}
+main.features #featuresUno{
+
+    /* Color */
+    background-color: #686B76;
+
+    /* Size */
+    width: 200px;
+    height: 200px;
+
+    /* Padding, Margin & Position */
+    margin: 5%;
+    display: inline-block;
+}
+
+
+/* <------ Contact ------> */
+
+.contact #logo{
+
+    /* Padding, Margin & Position */
+    padding-top: 15%;
+    padding-left: 5%;
+}
+
+.contact aside {
+
+    /* Padding, Margin & Position */
+    position: absolute;
+    padding-left: 45%;
+    margin-top: 10%;
+}
+
+.contact h1 {
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+
+    /* Color */
+    color: #A4A7B2;
+
+    /* Size */
+    width: 60%;
+
+    /* Padding, Margin & Position */
+    padding-top: 2%;    
+}
+
+.contact p{
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: #686B76;
+
+    /* Size */
+    width: 50%;
+
+    /* Padding, Margin & Position */
+    padding-bottom: 2%;
+}
+
+.contact fieldset{
+    
+    /* Border Style */
+    border-color: #686B76;
+
+    /* Padding, Margin & Position */ 
+    padding: 4%;
+}
+
+.contact legend{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+
+    /* Color */
+    color: #686B76;
+
+    /* Border Style */
+    border-style: none;
+}
+
+.contact label{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+
+    /* Color */
+    color: #A4A7B2;
+}
+
+.contact input{
+
+    /* Border Style */
+    border-style: none;
+    border: 2px solid #686B76;
+
+    /* Size */
+    width: 30%;
+
+    /* Padding, Margin & Position */ 
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.contact textarea{
+
+    /* Border Style */
+    border-style: none;
+    border: 2px solid #686B76;
+
+    /* Padding, Margin & Position */      
+    display: block;
+    width: 80%;
+}
+
+.contact #gamingPlatform{
+
+    /* Border Style */
+    border-style: none;
+    border: 2px solid #686B76;
+    
+    /* Size */
+    width: 30%;
+
+    /* Padding, Margin & Position */    
+    display: block;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact #tryBeta{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    /* Color */
+    background-color: #A4A7B2;
+    color: white;
+
+    /* Size */
+    width: 20%;
+
+    /* Border Style */
+    border-radius: 0;
+    border-style: hidden;
+
+    /* Padding, Margin & Position */  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+
+/* <------ Footer ------> */
+
+footer{
+
+    /* Size */
+    width: 100%;
+    height: 72px;
+
+    /* Color */
+    background-color: #A4A7B2;
+
+    /* Padding, Margin & Position */
+    position: sticky;
+    top: 100%;
+}
+
+footer p{
+
+    /* Size */
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+
+    /* Color */
+    color: white;
+
+    /* Align */
+    text-align: center;
+
+    /* Padding, Margin & Position */
+    padding: 20px;
+    bottom: 0;
+    top: 0;
+}
